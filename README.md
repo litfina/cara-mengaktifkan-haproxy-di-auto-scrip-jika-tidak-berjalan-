@@ -19,13 +19,13 @@ There are quite a few fields but you can leave some blank
 For some fields there will be a default value,
 If you enter '.', the field will be left blank.
 -----
-1 Country Name (2 letter code) [AU]:
-2 State or Province Name (full name) [Some-State]:
-3 Locality Name (e.g. city) []:
-4 Organization Name (e.g. company) [Internet Widgits Pty Ltd]:
-5 Organizational Unit Name (e.g. section) []:
-6 Common Name (e.g. server FQDN or YOUR name) []:
-7 Email Address []:
+##1 Country Name (2 letter code) [AU]:
+##2 State or Province Name (full name) [Some-State]:
+##3 Locality Name (e.g. city) []:
+##4 Organization Name (e.g. company) [Internet Widgits Pty Ltd]:
+##5 Organizational Unit Name (e.g. section) []:
+##6 Common Name (e.g. server FQDN or YOUR name) []:
+##7 Email Address []:
 
 $ isi nya paling kek gitu setelah itu isi nya seperti ini $
 1. Masukkan Informasi Sertifikat:
