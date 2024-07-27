@@ -23,15 +23,15 @@ If you enter '.', the field will be left blank.
 Country Name (2 letter code) [AU]:
 isi nya paling ke gitu setelah itu isi nya seperti ini 
 1. Masukkan Informasi Sertifikat:
-Country Name (2 letter code): Masukkan kode negara Anda (misalnya, ID untuk Indonesia) atau tekan Enter untuk menggunakan default.
-State or Province Name (full name): Masukkan nama provinsi atau negara bagian Anda (misalnya, Jakarta) atau tekan Enter untuk menggunakan default.
-Locality Name (e.g. city): Masukkan nama kota Anda (misalnya, Jakarta) atau tekan Enter untuk menggunakan default.
-Organization Name (e.g. company): Masukkan nama organisasi Anda (misalnya, MyCompany) atau tekan Enter untuk menggunakan default.
-Organizational Unit Name (e.g. section): Masukkan nama unit organisasi Anda (misalnya, IT Department) atau tekan Enter untuk menggunakan default.
-Common Name (e.g. server FQDN or YOUR name): Masukkan nama domain Anda (misalnya, example.com) atau nama server Anda (misalnya, localhost) atau tekan Enter untuk menggunakan default.
-Email Address: Masukkan alamat email Anda (misalnya, admin@example.com) atau tekan Enter untuk menggunakan default.
-isi nya seperti itu domain nya adalah gunakan domain kalian yang di pasang di auto scrip
-###2. Menggabungkan Sertifikat dan Private Key ke dalam File PEM##
+ 1 Country Name (2 letter code): Masukkan kode negara Anda (misalnya, ID untuk Indonesia) atau tekan Enter untuk menggunakan default.
+ 2 State or Province Name (full name): Masukkan nama provinsi atau negara bagian Anda (misalnya, Jakarta) atau tekan Enter untuk menggunakan default.
+ 3 Locality Name (e.g. city): Masukkan nama kota Anda (misalnya, Jakarta) atau tekan Enter untuk menggunakan default.
+ 4 Organization Name (e.g. company): Masukkan nama organisasi Anda (misalnya, MyCompany) atau tekan Enter untuk menggunakan default.
+ 5 Organizational Unit Name (e.g. section): Masukkan nama unit organisasi Anda (misalnya, IT Department) atau tekan Enter untuk menggunakan default.
+ 6 Common Name (e.g. server FQDN or YOUR name): Masukkan nama domain Anda (misalnya, example.com) atau nama server Anda (misalnya, localhost) atau tekan Enter untuk menggunakan default.
+ 7 Email Address: Masukkan alamat email Anda (misalnya, admin@example.com) atau tekan Enter untuk menggunakan default.
+##isi nya seperti itu domain nya adalah gunakan domain kalian yang di pasang di auto scrip ###
+###2. Menggabungkan Sertifikat dan Private Key ke dalam File PEM ###
 ```
 sudo cat /etc/haproxy/hap.key /etc/haproxy/hap.crt > /etc/haproxy/hap.pem
 ```
