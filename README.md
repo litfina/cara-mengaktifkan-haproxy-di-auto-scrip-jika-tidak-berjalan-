@@ -10,7 +10,8 @@ sudo openssl req -newkey rsa:2048 -nodes -keyout /etc/haproxy/hap.key -x509 -day
 isi dalam membuat sertifikat adalah 
 sudo openssl req -newkey rsa:2048 -nodes -keyout /etc/haproxy/hap.key -x509 -days 365 -out /etc/haproxy/hap.crt
 Generating a RSA private key
-..............................+++++..+++++
+..............................+++++
+..+++++
 writing new private key to '/etc/haproxy/hap.key'
 -----
 You are about to be asked to enter information that will be incorporated
