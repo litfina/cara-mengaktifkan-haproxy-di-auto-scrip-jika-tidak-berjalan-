@@ -7,8 +7,6 @@ Jika Anda tidak memiliki sertifikat SSL dan private key, Anda bisa membuat serti
 ```
 sudo openssl req -newkey rsa:2048 -nodes -keyout /etc/haproxy/hap.key -x509 -days 365 -out /etc/haproxy/hap.crt
 ```
-isi dalam membuat sertifikat adalah 
-sudo openssl req -newkey rsa:2048 -nodes -keyout /etc/haproxy/hap.key -x509 -days 365 -out /etc/haproxy/hap.crt
 Generating a RSA private key
 ..............................+++++
 ..+++++
@@ -22,8 +20,14 @@ For some fields there will be a default value,
 If you enter '.', the field will be left blank.
 -----
 Country Name (2 letter code) [AU]:
+State or Province Name (full name) [Some-State]:
+Locality Name (e.g. city) []:
+Organization Name (e.g. company) [Internet Widgits Pty Ltd]:
+Organizational Unit Name (e.g. section) []:
+Common Name (e.g. server FQDN or YOUR name) []:
+Email Address []:
 
-$ isi nya paling ke gitu setelah itu isi nya seperti ini $
+$ isi nya paling kek gitu setelah itu isi nya seperti ini $
 1. Masukkan Informasi Sertifikat:
 ## 1 Country Name (2 letter code): Masukkan kode negara Anda (misalnya, ID untuk Indonesia) atau tekan Enter untuk menggunakan default.
 ## 2 State or Province Name (full name): Masukkan nama provinsi atau negara bagian Anda (misalnya, Jakarta) atau tekan Enter untuk menggunakan default.
