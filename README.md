@@ -32,7 +32,7 @@ $ isi nya paling ke gitu setelah itu isi nya seperti ini $
 ## 5 Organizational Unit Name (e.g. section): Masukkan nama unit organisasi Anda (misalnya, IT Department) atau tekan Enter untuk menggunakan default.
 ## 6 Common Name (e.g. server FQDN or YOUR name): Masukkan nama domain Anda (misalnya, example.com) atau nama server Anda (misalnya, localhost) atau tekan Enter untuk menggunakan default.
 ## 7 Email Address: Masukkan alamat email Anda (misalnya, admin@example.com) atau tekan Enter untuk menggunakan default.
-##isi nya seperti itu domain nya adalah gunakan domain kalian yang di pasang di auto scrip ###
+###isi nya seperti itu domain nya adalah gunakan domain kalian yang di pasang di auto scrip ###
 ###2. Menggabungkan Sertifikat dan Private Key ke dalam File PEM ###
 ```
 sudo cat /etc/haproxy/hap.key /etc/haproxy/hap.crt > /etc/haproxy/hap.pem
