@@ -22,7 +22,8 @@ For some fields there will be a default value,
 If you enter '.', the field will be left blank.
 -----
 Country Name (2 letter code) [AU]:
-isi nya paling ke gitu setelah itu isi nya seperti ini 
+
+$ isi nya paling ke gitu setelah itu isi nya seperti ini $
 1. Masukkan Informasi Sertifikat:
  1 Country Name (2 letter code): Masukkan kode negara Anda (misalnya, ID untuk Indonesia) atau tekan Enter untuk menggunakan default.
  2 State or Province Name (full name): Masukkan nama provinsi atau negara bagian Anda (misalnya, Jakarta) atau tekan Enter untuk menggunakan default.
